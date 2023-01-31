@@ -42,8 +42,6 @@ hr {
     grid-row-gap: 30px;
 }
 
-
-
 .player {
     display: flex;
     align-items: center;
@@ -54,8 +52,41 @@ hr {
     width: 56px;
 }
 
-
-
 .player-name {
     margin-left: 16px;
+}
+
+/* ------------------
+    blog part start  
+ -------------------*/
+.top-blogs {}
+
+.bolgs {}
+
+.blog {
+    display: flex;
+}
+
+.blog .thumbline img {
+    width: 177px;
+    height: 117px;
+}
+
+.bolg-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    color: #9F9F9F;
+    font-size: 16px;
+
+}
+
+.blog-author a {
+    color: #562EFF;
+    text-decoration: none;
 }
